@@ -4,8 +4,7 @@ Priority: optional
 Maintainer: Marc Leeman <m.leeman@televic.com>
 Build-Depends: debhelper (>= 10),
                 dkms,
-                bc,
-                linux-kbuild-4.19
+                bc
 Standards-Version: 4.3.0
 Vcs-Browser: https://github.com/brektrou/rtl8821CU
 Vcs-Git: https://github.com/brektrou/rtl8821CU.git
@@ -13,7 +12,7 @@ Vcs-Git: https://github.com/brektrou/rtl8821CU.git
 Package: rtl8821cu-dkms
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, dkms, dpkg-dev, usb-modeswitch
 Provides: rtl8821cu-module
 Description: DKMS files to build and install rtl8821cu
  The rtl8821cu driver provides the driver for Realtek RTL8811CU/RTL8821CU

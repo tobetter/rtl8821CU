@@ -15,7 +15,7 @@ DRV_VERSION=5.4.1
 cp -r ${DRV_DIR} /usr/src/${DRV_NAME}-${DRV_VERSION}
 
 dkms add -m ${DRV_NAME} -v ${DRV_VERSION}
-dkms build -m ${DRV_NAME} -v ${DRV_VERSION}
+ARCH=arm64 dkms build -m ${DRV_NAME} -v ${DRV_VERSION}
 dkms install -m ${DRV_NAME} -v ${DRV_VERSION}
 RESULT=$?
 
