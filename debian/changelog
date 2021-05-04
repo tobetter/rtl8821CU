@@ -1,3 +1,9 @@
+rtl8821cu (5.4.1-1) stable; urgency=medium
+
+  * Add ODROID custom build
+
+ -- Dongjin Kim <tobetter@gmail.com>  Tue, 04 May 2021 11:28:21 +0900
+
 rtl8821cu (5.4.1) unstable; urgency=medium
 
   * Initial release
