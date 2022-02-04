@@ -1,0 +1,6 @@
+rtl8821cu (5.8.1.7) unstable; urgency=medium
+
+  * Update to v5.8.1.7 from
+    https://github.com/morrownr/8821cu/tree/5.8.1.7
+
+ -- Dongjin Kim <tobetter@gmail.com>  Fri, 04 Feb 2022 13:04:12 +0900
