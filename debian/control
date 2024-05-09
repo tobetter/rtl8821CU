@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Marc Leeman <m.leeman@televic.com>
 Build-Depends: debhelper (>= 10),
                 dkms,
+                dh-dkms,
                 bc
 Standards-Version: 4.3.0
 Vcs-Browser: https://github.com/brektrou/rtl8821CU
