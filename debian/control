@@ -13,7 +13,7 @@ Vcs-Git: https://github.com/brektrou/rtl8821CU.git
 Package: rtl8821cu-dkms
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, dkms, dpkg-dev, usb-modeswitch
+Depends: ${misc:Depends}, dkms, dpkg-dev, linux-firmware | firmware-realtek
 Provides: rtl8821cu-module
 Description: DKMS files to build and install rtl8821cu
  The rtl8821cu driver provides the driver for Realtek RTL8811CU/RTL8821CU
